@@ -58,6 +58,11 @@
 			path = HelloIOSUITests;
 			sourceTree = "<group>";
 		};
+		925C393E2D9DFC7E008DEF24 /* screenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,7 @@
 		925C39012D9B8CA8008DEF24 = {
 			isa = PBXGroup;
 			children = (
+				925C393E2D9DFC7E008DEF24 /* screenshots */,
 				925C390C2D9B8CA9008DEF24 /* HelloIOS */,
 				925C39232D9B8CAA008DEF24 /* HelloIOSTests */,
 				925C392D2D9B8CAA008DEF24 /* HelloIOSUITests */,
@@ -122,6 +128,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				925C390C2D9B8CA9008DEF24 /* HelloIOS */,
+				925C393E2D9DFC7E008DEF24 /* screenshots */,
 			);
 			name = HelloIOS;
 			packageProductDependencies = (
@@ -289,6 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR2URYM9JY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloIOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Hello;
@@ -317,6 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR2URYM9JY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloIOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Hello;
